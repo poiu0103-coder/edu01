@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>우리들의 미래 : 통일 ON</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">🇰🇷 통일<span>ON</span></div>
+            <ul>
+                <li><a href="#intro">통일이란?</a></li>
+                <li><a href="#benefit">왜 해야 할까?</a></li>
+                <li><a href="#quiz">OX 퀴즈</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h1>하나가 되는 한반도,<br>우리가 만드는 미래</h1>
+            <p>끊어진 철길이 이어지는 날, 우리의 꿈은 더 커집니다.</p>
+            <button onclick="location.href='#intro'">더 알아보기</button>
+        </div>
+    </section>
+
+    <section id="benefit">
+        <div class="container">
+            <h2>통일이 되면 무엇이 좋아질까?</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <div class="icon">🚆</div>
+                    <h3>유라시아 철도 여행</h3>
+                    <p>부산에서 런던까지, 기차를 타고 유럽 여행을 갈 수 있어요.</p>
+                </div>
+                <div class="card">
+                    <div class="icon">🛡️</div>
+                    <h3>평화와 안전</h3>
+                    <p>전쟁의 공포가 사라지고 국방비 절감으로 복지가 늘어나요.</p>
+                </div>
+                <div class="card">
+                    <div class="icon">📈</div>
+                    <h3>경제 성장</h3>
+                    <p>남한의 기술과 북한의 자원이 만나 새로운 일자리가 생겨요.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="quiz">
+        <div class="quiz-box">
+            <h2>팩트 체크! OX 퀴즈</h2>
+            <p id="question">"남한과 북한은 같은 언어를 사용한다?"</p>
+            <div class="btns">
+                <button class="btn-o" onclick="checkAnswer(true)">O</button>
+                <button class="btn-x" onclick="checkAnswer(false)">X</button>
+            </div>
+            <p id="result"></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 우리들의 통일교육 웹페이지. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
